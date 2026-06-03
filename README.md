@@ -10,7 +10,7 @@ Xây dựng hệ thống cơ sở dữ liệu phân tán có khả năng tự đ
 
 ## Nhiệm Vụ
 
-- Train Markov Chain bậc 2 để dự đoán **next query**.
+- Train Markov Chain bậc 2 để dự đoán next query.
 - Dựa trên prediction, hệ thống pre-fetch dữ liệu vào Redis.
 - Đo mức tăng cache hit rate.
 - So sánh query response time khi có và không có AI pre-fetching.
