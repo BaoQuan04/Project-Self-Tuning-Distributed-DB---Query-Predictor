@@ -1,0 +1,4 @@
+scenario,total_queries,cache_hits,cache_misses,cache_hit_rate_pct,select_queries,select_cache_hits,select_cache_hit_rate_pct,avg_response_ms,median_response_ms,p95_response_ms,p99_response_ms,min_response_ms,max_response_ms,std_response_ms,redis_hits,redis_misses,redis_prefetch_hits,prefetch_attempts,prefetch_successes,prediction_count,skipped_low_confidence,skipped_non_select
+baseline,10000,0,10000,0.0,7852,0,0.0,88.273,128.27,176.356,180.68,4.549,183.944,73.293,,,,,,,,
+cache_only,10000,624,9376,6.24,7852,624,7.95,93.897,126.951,211.734,222.99,0.248,227.106,83.138,624.0,7228.0,0.0,,,,,
+ai_prefetch,10000,1984,8016,19.84,7852,1984,25.27,78.168,8.722,207.976,222.615,0.203,229.256,82.782,2608.0,13096.0,1538.0,3421.0,3421.0,10000.0,5866.0,713.0
